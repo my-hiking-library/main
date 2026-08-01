@@ -72,9 +72,6 @@ My Hiking Library is not designed to knowingly collect personal information from
 
 This policy may be updated when the app’s features or data practices change. The effective date at the top of this page will identify the latest revision.
 
-## Contact
-
-For questions about this privacy policy or the app’s privacy practices, contact:
 
 ### App Information
 

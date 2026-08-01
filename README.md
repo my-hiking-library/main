@@ -76,4 +76,5 @@ This policy may be updated when the app’s features or data practices change. T
 ### App Information
 
 - **Developer:** Ian Coulter
+- **Email:** myhikinglibrary@gmail.com
 - **Version:** 1.0

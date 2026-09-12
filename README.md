@@ -1,18 +1,19 @@
 # My Hiking Library Privacy Policy
 
-**Effective date: August 20, 2026**
+**Effective date: August 30, 2026**
 
 My Hiking Library is a personal hiking journal for iPhone. It uses information from Apple Health to organize and display your hiking history.
 
-My Hiking Library does not require you to create an account with the developer. The developer does not operate a server that receives your hiking history, photographs, current location, or personal HealthKit information.
+My Hiking Library does not require you to create an account with the developer. The developer does not operate a server that receives your hiking history, photos, videos, current location, or personal HealthKit information.
 
 ## Information the App Accesses
 
 With your permission, My Hiking Library may access:
 
 - **Apple Health:** Hiking workouts, workout dates and times, duration, distance, elevation, active energy, heart-rate information, GPS workout routes, and weather information attached to workouts.
-- **Photo Library:** Photographs, creation dates, and location metadata used to identify photos that may correspond to your hikes and display photos you choose to associate with them.
+- **Photo Library:** Photos, videos, creation dates, and location metadata used to identify media that may correspond to your hikes and display media you choose to associate with them.
 - **Location Services:** Your current location when providing live-location map features.
+- **Apple Location and Maps Services:** A saved hike's starting coordinate may be submitted directly to Apple to identify its nearest city or town and any park, forest, preserve, reservation, or conservation area containing it.
 - **Apple Weather:** A saved hike’s trail coordinate and representative date and time may be submitted to Apple Weather to retrieve historical weather conditions for that hike.
 
 You can deny or revoke Health, Photo Library, or Location permissions at any time. Some features may be unavailable without the corresponding permission, but unrelated features will remain available.
@@ -28,7 +29,13 @@ My Hiking Library:
 - Does not send HealthKit information to the developer
 - Does not use HealthKit information for advertising, marketing, tracking, or data mining
 
-Except for the limited Apple Weather request described below, HealthKit-derived information remains on your device.
+Except for the limited Apple location, Maps, and Weather requests described below, HealthKit-derived information remains on your device.
+
+## Apple Location and Maps Services
+
+While organizing an imported hike, My Hiking Library may send the hike's starting coordinate directly to Apple's geocoding and Maps services. These requests are used only to identify the location where the hike occurred, including a relevant park, forest, preserve, reservation, conservation area, nearest city or town, state or province, and country.
+
+These requests use the saved workout location, not your current live location. The developer does not receive the coordinate or Apple's response. The complete GPS workout route remains in the app's local data store and is not submitted as part of these requests.
 
 ## Apple Weather
 
@@ -46,37 +53,25 @@ Current-location access is used only to show your position when using supported 
 
 My Hiking Library does not permanently store your current location and does not send it to the developer, advertisers, data brokers, or analytics providers. It is not used for advertising, tracking, or marketing.
 
-Saved GPS workout routes imported from Apple Health are treated as HealthKit-derived data and remain in the app’s local data store.
+Saved GPS workout routes imported from Apple Health are treated as HealthKit-derived data and remain in the app’s local data store, except for the limited starting-coordinate requests to Apple described above.
 
-## Information Stored in iCloud
+## On-Device Storage and Private iCloud Sync
 
-The following user-created information and preferences may be stored in your private iCloud account so they can be restored and synchronized across your devices:
+Hike notes, ratings, hidden-hike preferences, and user-created collection names, descriptions, and membership are stored locally and synchronized through the app's private CloudKit container so they can be restored after reinstalling or moving to another device.
 
-- Ratings
-- Comments and notes
-- Hidden-hike preferences
-- Collection names and descriptions
-- Collection membership
-- Dates used to determine which synchronized edit is most recent
-- Opaque identifiers used to associate this information with hikes stored locally on your device
+The app uses an opaque one-way identifier to associate this metadata with a hike. It does not place HealthKit workout identifiers, workout dates, health measurements, GPS routes, locations, weather information, renamed trails or areas, or Photo Library identifiers in CloudKit. Cloud metadata is stored in the user's private iCloud database and is not accessible to the developer.
 
-Opaque hike identifiers do not contain workout measurements, GPS coordinates, workout dates, routes, heart-rate information, or raw HealthKit workout identifiers.
+## Photos and Videos
 
-When you delete a collection, a limited deletion marker may remain in your private iCloud data so that an outdated copy of the collection is not restored from another device. This marker contains only a randomly generated collection identifier and deletion time. It does not contain the collection’s name, description, membership, or hiking information.
+My Hiking Library does not upload your photos or videos. Media remains in your Apple Photos library.
 
-Renamed trails and areas remain on your device and are not synchronized through iCloud.
+The app stores local Photo Library references for media you associate with hikes. These references remain on your device and are used only to locate and display the corresponding photos or videos within the app.
 
-Private iCloud information is stored using Apple CloudKit under your Apple Account. The developer does not operate a separate server for this information and does not have access to your private CloudKit records.
+Media creation dates and available location metadata are used locally to suggest potential matches. They are not sent to the developer, stored in iCloud, or used for advertising, tracking, or marketing.
 
-## Photos
+When you explicitly choose Share, the app temporarily copies the original Photos resource to a temporary local file and presents Apple's share sheet. The app does not intentionally recompress the media or remove embedded metadata. The selected destination may process the file according to its own policies. The temporary copy is deleted after the share sheet finishes.
 
-My Hiking Library does not copy or upload your photographs. Photos remain in your Apple Photos library.
-
-The app stores local Photo Library references for photographs you associate with hikes. These references remain on your device and are used only to locate and display the corresponding photographs within the app.
-
-Photo creation dates and available location metadata are used locally to suggest potential matches. They are not sent to the developer, stored in iCloud, or used for advertising, tracking, or marketing.
-
-Removing the app does not delete photographs from Apple Photos. Removing a photograph from Apple Photos may make it unavailable within My Hiking Library.
+Removing the app does not delete photos or videos from Apple Photos. Removing media from Apple Photos may make it unavailable within My Hiking Library.
 
 ## Other Locally Stored Information
 
@@ -87,7 +82,7 @@ The app may store settings and operational information on your device, including
 - Photo-prompt history
 - Review-prompt eligibility
 - Renamed trails and areas
-- Local references to associated photographs
+- Local references to associated photos and videos
 
 This information is used only to provide app functionality and preferences. It is not sent to the developer or used for tracking.
 
@@ -101,28 +96,30 @@ My Hiking Library does not:
 - Use third-party analytics or tracking technologies
 - Track your activity across other companies’ apps or websites
 - Create advertising profiles
-- Share user information with third-party services
+- Share user information with non-Apple third-party services
 
-The app uses Apple-provided services, including HealthKit, Photos, Location Services, WeatherKit, and private CloudKit storage, for the purposes described in this policy.
+The app uses Apple-provided services, including HealthKit, Photos, Location Services, Maps, WeatherKit, and private CloudKit synchronization as described above.
 
 ## Data Retention and Deletion
 
-HealthKit-derived information, Photo Library references, renamed trails and areas, and other locally stored app information remain on your device until the app’s local data is deleted or the app is uninstalled.
+HealthKit-derived information, media references, trail names, and area names remain on your device until the source workout is deleted from Apple Health and the app next synchronizes, the app's local data is deleted, or the app is uninstalled. Other local preferences remain until the app's local data is deleted or the app is uninstalled.
 
-Uninstalling My Hiking Library does not delete the original workouts from Apple Health or photographs from Apple Photos.
+Uninstalling My Hiking Library does not delete the original workouts from Apple Health or media from Apple Photos.
 
-User-created information synchronized through iCloud may remain in your private iCloud account after uninstalling the app. This allows supported information to be restored if the app is reinstalled or used on another device signed in to the same Apple Account.
+Synced notes, ratings, hidden-hike preferences, and collection data remain in the user's private iCloud database until they are cleared or deleted in the app, the source workout is deleted from Apple Health and the app next synchronizes, or the app's iCloud data is deleted through Apple’s iCloud storage controls. Uninstalling the app from one device does not by itself delete this private iCloud data.
 
 Within My Hiking Library, you can:
 
-- Clear comments and notes
+- Clear notes
 - Remove ratings
 - Hide or unhide hikes
 - Delete collections
 
-Deleting a collection removes its descriptive information and membership. A limited deletion marker may remain as described above to synchronize that deletion across devices.
+Deleting a collection removes its locally and privately synchronized descriptive information and membership. A content-free deletion marker may remain so an offline device cannot recreate the deleted collection.
 
-You can manage or delete all of the app’s private iCloud data through your Apple Account’s iCloud storage settings. Deleting synchronized information may remove it from every device signed in to the same Apple Account.
+When a source workout is deleted from Apple Health and My Hiking Library next synchronizes, the corresponding local hike, widget statistics, synchronized notes, rating, hidden status, and collection membership are removed. A content-free marker containing only the app's opaque one-way hike key may remain in the private CloudKit database so an offline device cannot recreate the deleted metadata.
+
+You can also manage or delete the app's private iCloud data through your Apple Account’s iCloud storage settings.
 
 Because the developer does not have access to your private CloudKit records, the developer cannot retrieve or delete that information on your behalf.
 
@@ -138,7 +135,7 @@ Revoking permission prevents future access to the corresponding protected inform
 
 ## Security
 
-My Hiking Library relies on Apple’s platform security, application sandboxing, HealthKit protections, and private CloudKit storage. No method of electronic storage is completely secure, but the app minimizes data transmission and does not operate a separate developer-controlled server containing your personal hiking information.
+My Hiking Library relies on Apple’s platform security, application sandboxing, and HealthKit protections. No method of electronic storage is completely secure, but the app minimizes data transmission and does not operate a separate developer-controlled server containing your personal hiking information.
 
 ## Children’s Privacy
 
@@ -156,4 +153,4 @@ Questions about this privacy policy may be sent to:
 
 - **Developer:** Ian Coulter
 - **Email:** myhikinglibrary@gmail.com
-- **App version:** 1.1
+- **App version:** 1.2

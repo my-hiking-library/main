@@ -1,6 +1,6 @@
 # My Hiking Library Privacy Policy
 
-**Effective date: August 30, 2026**
+**Effective date: September 21, 2026**
 
 My Hiking Library is a personal hiking journal for iPhone. It uses information from Apple Health to organize and display your hiking history.
 
@@ -153,4 +153,4 @@ Questions about this privacy policy may be sent to:
 
 - **Developer:** Ian Coulter
 - **Email:** myhikinglibrary@gmail.com
-- **App version:** 1.2
+- **App version:** 1.2.1

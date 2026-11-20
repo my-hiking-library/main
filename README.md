@@ -1,6 +1,6 @@
 # My Hiking Library Privacy Policy
 
-**Effective date: November 1, 2026 · App version 2.0.1**
+**Effective date: November 20, 2026 · App version 2.0.2**
 
 My Hiking Library turns hiking workouts from Apple Health into a personal hiking journal on iPhone, including iPhone Duo, and iPad. No app-specific account is required. The developer does not operate a server that collects your hiking history, health information, photos, videos, or location.
 
@@ -15,11 +15,11 @@ With your permission, the app accesses:
 
 ## Storage, Widgets, and iCloud
 
-Imported workout data, routes, media references, photo-search data, renamed places, and app preferences are stored on your device. The app’s CloudKit synchronization does not include personal HealthKit records, routes, locations, or the photo-search index.
+Imported workout data, routes, media references, photo-search data, renamed places, and app preferences are stored on your device. Month, year, and lifetime activity summaries are calculated on your device from your imported hiking history. The app’s CloudKit synchronization does not include personal HealthKit records, routes, locations, or the photo-search index.
 
 The app shares monthly and yearly hiking summaries and your unit preference with its widget through a private on-device app-group container. This allows the widget to show totals and period comparisons without reading Apple Health itself. The widget’s background and time-period choices are managed by the system’s widget settings. These summaries are not sent to the developer.
 
-Notes, ratings, hidden-hike preferences, and collection names, descriptions, and membership sync through your private iCloud database when available. The app uses a one-way identifier derived from a workout identifier to associate this information with a hike. The synced records do not include the original workout identifier, workout dates, health measurements, routes, locations, weather, or Photo Library identifiers. Information you choose to write in notes or collection descriptions is included in that private sync.
+Notes, ratings, hidden-hike preferences, and collection names, descriptions, and membership sync through your private iCloud database when available. The app uses a one-way identifier derived from a workout identifier to associate this information with a hike. The synced records do not include the original workout identifier, workout dates, health measurements, routes, locations, weather, or Photo Library identifiers. Collection identifiers and creation or modification timestamps are also included to support synchronization. Information you choose to write in notes, collection names, or collection descriptions is included in that private sync.
 
 The developer does not receive or have access to these private iCloud records. Device backups and restores are managed separately by Apple and your device settings; the app does not operate its own online backup service.
 

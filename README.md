@@ -1,6 +1,6 @@
 # My Hiking Library Privacy Policy
 
-**Effective date: November 20, 2026 · App version 2.0.2**
+**Effective date: November 20, 2026 · App version 2.0.3**
 
 My Hiking Library turns hiking workouts from Apple Health into a personal hiking journal on iPhone, including iPhone Duo, and iPad. No app-specific account is required. The developer does not operate a server that collects your hiking history, health information, photos, videos, or location.
 
